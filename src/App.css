@@ -1,0 +1,39 @@
+.banner{
+  width: 100%;
+  height: 140px;
+  background: #444;
+  padding: 40px;
+  color: white;
+}
+.Container{
+  width: 100%;
+  display: flex; 
+  justify-content: space-around;
+  border-left: 30px solid white;
+  border-right: 20px solid white; 
+  border-top: 1px solid #ccc;
+  background: #fff; 
+}
+.Container div, .Container div label{
+  padding: 10px;
+  cursor:url("./picture/cursor1.gif"), auto;
+}
+.div1{
+  width: 60%;
+  text-align: left;
+  color: #333;
+  font-size: 13pt;
+}.div2{
+  width: 35%;
+  text-align: center;
+}.div3{
+  width: 5%;
+  text-align: center;
+}
+ a:link, a:visited {
+   text-align: left; 
+  text-decoration: none;
+ }
+.author{
+  color: #999;
+}
